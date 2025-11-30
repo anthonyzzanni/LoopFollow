@@ -71,7 +71,7 @@ platform :ios do
     )
 
     gym(
-      export_method: "development",
+      export_method: "app-store",
       scheme: "LoopFollow",
       output_name: "LoopFollow.ipa",
       configuration: "Release",
